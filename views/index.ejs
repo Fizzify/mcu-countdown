@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MCU Countdown</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" media="all">
+</head>
+<body>
+  <div class="red-line"></div>
+  <img class="title" src="images/logo.png" alt="">
+  <div class="filmInformation">
+    <h1 class="filmCountdown">Coming in <span class="daysLeft"><%= daysLeft %></span> days.</h1>
+    <img class="filmPoster" src="<%= poster %>" alt="<%= title %> Poster">
+    <h2 class="filmTitle"><%= title %></h2>
+    <div class="filmParagraphs">
+      <p class="filmType"><%= type %></p>
+      <p class="filmReleaseDate"><%= releaseDate %></p>
+      <p class="filmOverview"><%= overview %></p>
+    </div>
+  </div>
+</body>
+</html>

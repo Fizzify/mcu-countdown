@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  background-image: linear-gradient(30deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)),
+    url("https://media-exp1.licdn.com/dms/image/C560BAQHewItNf4zl9Q/company-logo_200_200/0/1519856148198?e=2147483647&v=beta&t=_OPY8C0ussEgfcAJ9R8Xw2zzU2H9mafd0a59k2e8HKA");
+}
+
+.red-line {
+  width: 100vw;
+  height: 2px;
+  background-color: red;
+}
+
+.title {
+  padding-top: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.daysLeft {
+  color: red;
+}
+
+.filmInformation {
+  text-align: center;
+}
+
+.filmPoster {
+  border-radius: 5px;
+  border: 2px solid white;
+  width: 400px;
+}
+
+.filmOverview {
+  width: 700px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.filmParagraphs {
+  color: rgb(200, 200, 200);
+}

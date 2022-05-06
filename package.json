@@ -1,0 +1,14 @@
+{
+  "name": "mcu-countdown",
+  "version": "1.0.0",
+  "description": "A website to show how many days are left for the next MCU film.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.18.1"
+  }
+}
